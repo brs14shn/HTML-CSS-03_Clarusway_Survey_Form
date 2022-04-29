@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    max-width: 560px;
+    background-color: rgb(122, 170, 213);
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+#header-container{
+    text-align: center;
+    
+}
+#logo{
+    float:left;
+    width: 70px;
+}
+
+#title{
+    
+   margin: 20px 20px;
+   font-size: 2rem;
+   
+}
+    
+#description{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+p{
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.2;
+}
+.form-input{
+    margin-left:20px ;
+    line-height: 1.5;
+}
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#name,
+#surname,
+#email{
+    height: 35px;
+    width: 200px;
+    margin-bottom: 15px;
+    text-indent: 2px;
+    
+}
+#comments{
+    resize: none;
+}
+
+[type="submit"]{
+    background-color: rgb(215, 38, 11);
+    color: white;
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin: 15px auto;
+    display: block;
+    cursor: pointer;
+}
+
+
+
+    
